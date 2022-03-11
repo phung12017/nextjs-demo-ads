@@ -11,9 +11,22 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9563279627205125"
      crossOrigin="anonymous"></script>
+     <script async custom-element="amp-auto-ads"
+        src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+</script>
       </Head>
 
       <main className={styles.main}>
+        
+        <div 
+          style={{height:500}}
+
+        >
+<amp-auto-ads type="adsense"
+        data-ad-client="ca-pub-9563279627205125">
+</amp-auto-ads>
+        </div>
+        
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
